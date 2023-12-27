@@ -11,6 +11,9 @@ dependencies:
   '@thirdweb-dev/contracts':
     specifier: ^3.8.0
     version: 3.11.0(ethers@5.7.2)
+  dotenv:
+    specifier: ^16.3.1
+    version: 16.3.1
   zksync-web3:
     specifier: ^0.14.3
     version: 0.14.4(ethers@5.7.2)
@@ -1442,6 +1445,11 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /dotenv@16.3.1:
+    resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /elliptic@6.5.4:
     resolution: {integrity: sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ==}
